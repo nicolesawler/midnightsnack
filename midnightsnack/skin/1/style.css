@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4-Nov-2019, 1:16:47 PM
+    Author     : nicolesawler
+*/
+body{
+    background:#6d8a4d;
+    font-family:helvetica;
+}
+*{
+    box-sizing:border-box;
+    outline:none;
+}
+.wrapper{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width:888px;
+    background: #907a5d;
+    margin:0 auto;
+    padding:10px;
+}
+
+header{
+    max-width:888px;
+    background: #fff;
+    margin:0px auto 0px auto;
+    padding: 10px;
+    border-radius:20px;
+}
+header a{
+    color:#6d8a4d;
+    font-size:26px;
+    padding:10px 20px;
+    text-align:center;
+}
+header .right{
+    float:right;
+}
+nav{
+    max-width:888px;
+    margin:10px auto;
+    height:40px;
+    background:#ded5c8;
+}
+nav .link a{
+    float:left;
+    padding:10px;
+    color:#6d8a4d;
+}
+footer{
+    max-width:888px;
+    background: #ded5c8;
+    margin:0 auto;
+    padding:5px;
+    border-radius:20px;
+}
+footer p{
+    padding:10px;
+    color:#6d8a4d;
+    text-align:center;
+    font-size:11px;
+}
+aside{
+    float:left;
+    display:inline-block;
+    background: #ede7e0;
+    width:200px;
+    margin:10px 0 10px 0;
+    border-radius:20px;
+    padding:10px;
+}
+aside .link a{
+    color:#48612d;
+    padding:5px;
+}
+.content{
+    padding:25px;
+    background: #fff;
+    width:666px;
+    float:right;
+    margin:10px 0 10px 0;
+    border-radius:20px;
+}
+.clear{
+    clear:both;
+}
+
+
+
+
+
+h1{
+    color:#6d8a4d;
+    border-bottom:1px solid #6d8a4d;
+}
+a{
+    color:#6d8a4d;
+}
+
+
+/*add form*/
+
+
+.saved{
+    background:#e2ffc2;
+    border:1px solid darkgreen;
+    color:darkgreen;
+    padding:20px;
+}
+
+
+
+.add_form input,.add_form textarea{
+    width:100%;
+    display:block;
+    border:1px solid #ccc;
+    padding:5px;
+/*    resize: none;*/
+}
+
+.add_form input[name=submit]{
+    background:#474747;
+    color:white;
+    border:1px solid black;
+    font-weight:bold;
+    width:200px;
+}
+
+.add_form  select{
+    width:100%;
+}
+
+
+
+/*View*/
+
+img.image {
+    border:1px solid #ccc;
+    padding:15px;
+    background:white;
+    max-width:300px;
+    float:left;
+    margin:5px 15px 15px 0;
+}
+.meta{
+    font-size:13px;
+    
+}
+.meta span{
+    padding-right:25px;
+    
+    
+    
+}
+
+
+
+/*List All*/
+
+.item{
+    width:270px;
+    height:250px;
+    float:left;
+    border:1px solid #eee;
+    margin:10px;
+}
+
+
+.item img.image{
+    border:2px solid #ccc;
+    padding:15px;
+    background:white;
+    max-width:220px;
+    max-height:195px;
+    float:none;
+    display:block;
+    margin:5px 15px 15px 0;
+}
